@@ -9,7 +9,7 @@ const bodyParser = require('body-parser')
 const connection = require('./middleware/database')
 const redis = require('./middleware/redis');
 const route = require('./routes/main')
-require('../demo project/middleware/passport-setup'); 
+require('../Hairdresser/middleware/passport-setup'); 
 
 const swaggerOptions = {
     swaggerDefinition: {
